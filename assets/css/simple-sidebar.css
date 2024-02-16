@@ -1,0 +1,205 @@
+/*!
+ * Start Bootstrap - Simple Sidebar (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+  overflow-x: hidden;
+}
+
+/* Toggle Styles */
+
+#close-sidebar,
+#close-sidebar-types {
+  position: absolute;
+  right: 25px;
+  font-size: 19px;
+  color: #000;
+  top: 15px;
+  z-index: 2;
+}
+
+#wrapper {
+  padding-right: 0;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#wrapper.toggled {
+  padding-right: 270px;
+}
+
+#sidebar-categories {
+  position: fixed;
+  right: 0;
+  transition: right 0.3s linear;
+  top: 0;
+  width: 100%;
+  right: -100%;
+  background: #fff;
+  height: 100%;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  z-index: 1;
+}
+
+#sidebar-types {
+  position: fixed;
+  left: 0;
+  transition: left 0.3s linear;
+  top: 0;
+  width: 100%;
+  left: -100%;
+  background: #fff;
+  height: 100%;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  z-index: 1;
+}
+
+#sidebar-categories.sidebar-open {
+  right: 0;
+}
+
+#sidebar-types.sidebar-open {
+  left: 0;
+}
+
+.li-sub-nivel-3 {
+  margin-top: 10px;
+}
+
+.link-sub-nivel-3 {
+  font: bold 14px AvenirNextLTProDemi;
+  text-transform: uppercase;
+  color: #652210;
+  text-decoration: none;
+  /*text-indent: 10px;*/
+}
+
+.link-sub-nivel-3:hover {
+  color: #652210;
+}
+
+#wrapper.toggled #sidebar-categories {
+  width: 270px;
+}
+
+#sidebar-types ul {
+  width: 100%;
+}
+
+#sidebar-types ul li {
+  margin-bottom: 10px;
+  position: relative;
+  padding: 5px 0;
+  text-align: center;
+}
+
+#sidebar-types ul li a {
+  font: bold 16px AvenirNextLTProDemi;
+  text-transform: uppercase;
+  color: #652210;
+}
+
+#page-content-wrapper {
+  position: relative;
+  -webkit-transition: right 0.3s linear;
+  transition: right 0.3s linear;
+  right: 0;
+  -webkit-transition: transform 0.7s ease;
+  transition: transform 0.7s ease;
+  -webkit-transform-origin: 50% 200px 0;
+  transform-origin: 50% 200px 0;
+}
+
+#page-content-wrapper.sidebar-open {
+  transform: scale3d(0.9, 0.9, 0.9);
+  -webkit-transform: scale3d(0.9, 0.9, 0.9);
+  -webkit-box-shadow: 0 0 46px #000;
+  box-shadow: 0 0 46px #000;
+}
+
+#wrapper.toggled #page-content-wrapper {
+  position: absolute;
+  margin-left: -270px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+/* Sidebar Styles */
+
+.sidebar-nav {
+  /*position: absolute;*/
+  top: 0;
+  width: 255px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.sidebar-nav ul {
+  padding: 0;
+  margin: 0;
+  width: 93%;
+}
+
+.sidebar-nav li {
+  /*text-indent: 20px;*/
+  /*line-height: 40px;*/
+}
+
+.sidebar-nav li a {
+  display: block;
+  text-decoration: none;
+  width: 90%;
+  padding-left: 11px;
+}
+
+.sidebar-nav li a:hover {
+  text-decoration: none;
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+  text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+  height: 65px;
+  font-size: 18px;
+  line-height: 60px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+  background: none;
+}
+
+@media (min-width: 768px) {
+  #wrapper {
+    padding-right: 0;
+  }
+
+  #wrapper.toggled {
+    padding-right: 0;
+  }
+
+  #page-content-wrapper {
+    /*padding: 20px;*/
+    position: relative;
+    width: 100%;
+  }
+
+  #wrapper.toggled #page-content-wrapper {
+    position: relative;
+    margin-right: 0;
+  }
+}

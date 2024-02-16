@@ -1,0 +1,178 @@
+@media (min-width: 980px) and (max-width: 1024px) {
+  #header .logo img {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .menu-topo li {
+    margin: 0 10px;
+  }
+  .menu-topo ul li:focus {
+    outline: none;
+  }
+  .menu-topo ul li a:focus {
+    outline: none;
+  }
+
+  .visible-xs.busca {
+    width: 10%;
+    float: right;
+    margin-top: 27px;
+    text-align: center;
+  }
+
+  .assuntos-topo {
+    float: left;
+    width: 100%;
+  }
+
+  .campo_busca {
+    position: relative;
+    top: 0;
+    margin-bottom: 10px;
+  }
+
+  .assuntos-topo ul.sub-nivel-1 > li {
+    font-size: 12px;
+  }
+
+  .assuntos-topo ul.sub-nivel-1 li ul.sub-nivel-2 {
+    width: 940px;
+  }
+
+  .slide-subjects {
+    padding: 0 0 0;
+    float: left;
+    width: 90%;
+  }
+
+  .slide-subjects li {
+    font: bold 14px AvenirNextLTProDemi;
+    text-transform: uppercase;
+    position: relative;
+    padding: 20px 10px 0 0;
+  }
+  .slide-subjects li a {
+    color: #652210;
+    text-decoration: none;
+  }
+  .slide-subjects li:focus {
+    outline: none;
+  }
+  .slide-subjects li a:focus {
+    outline: none;
+  }
+
+  .visible-xs.mais_assuntos {
+    width: 10%;
+    float: right;
+    margin-top: 20px;
+  }
+  .visible-xs.mais_assuntos a {
+    color: #652210;
+  }
+
+  .slides {
+    height: 280px !important;
+  }
+
+  .title_slide {
+    margin: 0 !important;
+    width: 100%;
+  }
+  .title_slide h1 {
+    font-size: 30px;
+    line-height: 34px;
+    width: 80%;
+    margin: 15% auto 0;
+  }
+
+  .slick-prev-button {
+    left: -3px;
+  }
+  .slick-next-button {
+    right: -3px;
+  }
+
+  .area-rodape h2 img {
+    width: 80%;
+  }
+  .area-rodape .post a {
+    left: 40%;
+  }
+
+  .col-md-offset-1 h2 img {
+    width: 66% !important;
+  }
+
+  #footer .menu-footer {
+    width: 30%;
+    float: left;
+  }
+
+  /*.posts-destaque{ width: 50%; float: left; }*/
+
+  /* categorias */
+  .header_category {
+    height: auto;
+  }
+  .header_category .container {
+    position: relative;
+  }
+  .header_category .col-md-12 {
+    position: initial;
+    height: auto;
+  }
+
+  .header_category h1 {
+    line-height: 27px;
+    padding-bottom: 60px;
+  }
+
+  .header_category .descricao_categoria {
+    display: none;
+  }
+
+  .box-tab-categorias-mobile {
+    width: 90%;
+    float: left;
+    overflow: auto;
+    bottom: 0px;
+    position: absolute;
+  }
+  .box-tab-categorias-mobile ul {
+    bottom: 0 !important;
+    width: 120%;
+  }
+
+  /* Post view */
+  .header-post {
+    height: auto !important;
+  }
+
+  .destaques-home {
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+  }
+
+  .dest-home {
+    margin-top: 0 !important;
+  }
+
+  .sidebar-abouts {
+    display: none;
+  }
+
+  .user-abouts h3 {
+    margin-top: 13px;
+  }
+
+  .conteudo-quem-somos h2 {
+    font-size: 23px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+}
