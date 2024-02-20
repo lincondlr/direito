@@ -868,11 +868,13 @@ h2.titulo_central.borda-vermelho .border-bottom {
 }
 
 .area-rodape {
-  background-size: 100% auto;
+  background-size: cover;
+  background-position: center;
   width: 100%;
   float: left;
   padding: 20px 0 40px;
 }
+
 .area-rodape .post {
   background: #fff;
   border-radius: 5px;
@@ -1330,24 +1332,25 @@ h2.titulo_central.borda-vermelho .border-bottom {
 /* View */
 
 /* Contato */
-
-.conteudo-contato {
+.content-contact {
   padding: 20px 0;
   width: 100%;
   float: left;
 }
 
-.conteudo-contato p {
+.content-contact p {
   color: #333333;
   font-size: 15px;
   line-height: 24px;
 }
-.conteudo-contato label {
+
+.content-contact label {
   color: #333333;
   font-size: 15px;
   line-height: 15px;
 }
-.conteudo-contato label span {
+
+.content-contact label span {
   color: #6a2411;
 }
 
@@ -1355,7 +1358,7 @@ h2.titulo_central.borda-vermelho .border-bottom {
   border-radius: 3px;
 }
 
-.conteudo-contato .btn_enviar {
+.content-contact .btn_enviar {
   box-shadow: 0 2px 0 #4f1b0d;
   font-weight: 700;
   font-size: 11px;
@@ -1367,17 +1370,19 @@ h2.titulo_central.borda-vermelho .border-bottom {
   padding: 15px 20px 9px;
   color: #fff;
 }
+
+.form-group {
+  margin-bottom: 20px;
+}
 /* Contato */
 
-.conteudo-quem-somos {
+.content-about-us {
   width: 100%;
   float: left;
   padding-bottom: 20px;
+  padding-top: 20px;
 }
 
-.sidebar-abouts {
-  margin-top: 20px;
-}
 .sidebar-abouts ul {
   list-style: none;
   margin: 0;
@@ -1405,12 +1410,12 @@ h2.titulo_central.borda-vermelho .border-bottom {
   z-index: 10000;
 }
 
-.conteudo-quem-somos h2 {
+.content-about-us h2 {
   text-transform: uppercase;
   color: #dddddd;
   font-family: 25px;
 }
-.conteudo-quem-somos p {
+.content-about-us p {
   color: #333333;
   font-size: 15px;
   line-height: 24px;
@@ -1451,7 +1456,7 @@ h2.titulo_central.borda-vermelho .border-bottom {
   font-size: 18px;
   text-align: center;
   float: left;
-  padding: 6px 0 0;
+  padding: 2px 0 0;
   margin-right: 10px;
   color: #fff;
   border-radius: 5px;
