@@ -1152,6 +1152,7 @@ h2.titulo_central.borda-vermelho .border-bottom {
 }
 .header_category h1 a {
   color: #ed977f;
+  text-decoration: none;
 }
 
 .header_category .descricao_categoria {
@@ -1181,32 +1182,35 @@ h2.titulo_central.borda-vermelho .border-bottom {
 .header_category .tabs_category {
   border: 0 none;
   position: absolute;
-  bottom: 0;
+  bottom: -2px;
   height: 37px;
 }
 .header_category .tabs_category li {
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 700px;
   text-transform: uppercase;
   font-family: AvenirNextLTProDemi;
+  margin-left: 4px;
 }
 .header_category .tabs_category li:hover a {
   background: transparent;
   border-color: transparent;
 }
 
-.header_category .tabs_category a {
+.header_category .tabs_category button {
   color: #ffffff;
 }
-.header_category .tabs_category li.active a {
+.header_category .tabs_category li button.active,
+.header_category .tabs_category li button:hover {
   color: #6a2411;
   font-weight: bold;
 }
-.header_category .tabs_category li.active:hover a {
+.header_category .tabs_category li:hover button.active,
+.header_category .tabs_category li button:hover {
   background-color: #fff;
   border: 1px solid #ddd;
   border-bottom-color: transparent;
-  cursor: default;
+  cursor: pointer;
 }
 
 .content_category {
