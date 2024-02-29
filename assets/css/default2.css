@@ -189,6 +189,13 @@ button:hover {
   color: #fff;
 }
 
+.form_search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+}
+
 .form_search input {
   height: 30px;
   color: #333333;
@@ -1239,7 +1246,7 @@ h2.titulo_central.borda-vermelho .border-bottom {
 .header-post {
   width: 100%;
   background: url(../img/bg_header.jpg) repeat;
-  height: 80px;
+  min-height: 80px;
   padding: 30px 0;
   color: #fff;
   font: 18px AvenirNextLTProBold;
